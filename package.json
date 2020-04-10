@@ -1,0 +1,73 @@
+{
+  "name": "react-use-local-storage",
+  "version": "0.0.1",
+  "author": "Kaan Seyitogullari",
+  "homepage": "https://github.com/kaansey/react-use-local-storage/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaansey/react-use-local-storage.git"
+  },
+  "keywords": [
+    "react",
+    "use",
+    "hook",
+    "local",
+    "store",
+    "localstorage",
+    "localStorage",
+    "local storage",
+    "useLocalStorage",
+    "persistent",
+    "consistent",
+    "state",
+    "storage"
+  ],
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "build-watch": "rollup -c -w",
+    "test:lint": "eslint ./src/**/*.ts ./src/**/*.tsx ./example/src/**/*.ts ./example/src/**/*.tsx",
+    "test:lint:fix": "yarn test:lint -- --fix",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "ts-jest"
+  },
+  "devDependencies": {
+    "@testing-library/react-hooks": "^3.2.1",
+    "@types/jest": "^25.2.1",
+    "@types/react": "^16.9.13",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-tooltip": "^3.11.0",
+    "@typescript-eslint/eslint-plugin": "^2.9.0",
+    "@typescript-eslint/parser": "^2.9.0",
+    "concurrently": "^5.0.0",
+    "eslint": "^6.7.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "install-peers-cli": "^2.1.1",
+    "jest": "^25.3.0",
+    "prettier": "^1.19.1",
+    "react": "^16.13.1",
+    "react-test-renderer": "^16.13.1",
+    "rollup": "^1.27.5",
+    "rollup-plugin-size-snapshot": "^0.10.0",
+    "rollup-plugin-terser": "^5.1.3",
+    "rollup-plugin-typescript2": "^0.25.2",
+    "ts-jest": "^25.3.1",
+    "ts-node": "^8.5.2",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.2"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
