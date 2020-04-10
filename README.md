@@ -7,6 +7,10 @@
 - serializer (JSON.stringify)
 - deserializer (JSON.parse)
 
+### Demo
+
+https://codesandbox.io/s/react-localstorage-hook-yfj5f
+
 ### Installation
 
 Add `react-localstorage-hook` dependency
