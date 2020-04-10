@@ -1,11 +1,11 @@
 {
-  "name": "react-use-local-storage",
+  "name": "react-localstorage-hook",
   "version": "0.0.1",
   "author": "Kaan Seyitogullari",
-  "homepage": "https://github.com/kaansey/react-use-local-storage/",
+  "homepage": "https://github.com/kaansey/react-localstorage-hook",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kaansey/react-use-local-storage.git"
+    "url": "https://github.com/kaansey/react-localstorage-hook"
   },
   "keywords": [
     "react",
@@ -32,8 +32,8 @@
   "scripts": {
     "build": "rollup -c",
     "build-watch": "rollup -c -w",
-    "test:lint": "eslint ./src/**/*.ts ./src/**/*.tsx ./example/src/**/*.ts ./example/src/**/*.tsx",
-    "test:lint:fix": "yarn test:lint -- --fix",
+    "lint": "eslint ./src/**/*.ts",
+    "lint:fix": "yarn test:lint -- --fix",
     "test": "jest"
   },
   "jest": {
